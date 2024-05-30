@@ -13,10 +13,8 @@ This project implements classification methods for digit and face recognition us
 - util.py: Contains utility functions and data structures used across the project.
 
 
-**Run the classifier:**
-
+## Run the classifier:
 To execute the data classifier, use the following command:
-
 python dataClassifier.py -c [classifier] -d [dataset] -t [training_size] -i [iterations] -s [test_size]
 
 classifier: Type of classifier (perceptron or neural).
