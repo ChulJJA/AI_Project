@@ -60,3 +60,7 @@ loadLabelsFile: Loads corresponding labels for the image data.
 - Utility Functions (util.py)
 
 Includes various helper functions and data structures, such as Counter, Stack, Queue, and PriorityQueue, which are useful for implementing classifiers and other functionalities.
+
+- Licensing Information
+
+Please do not distribute or publish solutions to this project. The Pacman AI projects were developed at UC Berkeley by John DeNero and Dan Klein. For more info, see UC Berkeley AI.
