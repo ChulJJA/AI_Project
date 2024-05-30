@@ -24,7 +24,39 @@ python dataClassifier.py -c [classifier] -d [dataset] -t [training_size] -i [ite
 - iterations: Maximum iterations for training.
 - test_size: Amount of test data to use.
 
-Example:
+**Example:**
 
 python dataClassifier.py -c perceptron -d digits -t 1000 -i 10 -s 100
 
+## Key Components
+- ClassificationMethod (classificationMethod.py):
+
+An abstract base class that defines the structure for different classification methods. It includes abstract methods train and classify that need to be implemented by subclasses.
+
+- PerceptronClassifier (perceptron.py)
+
+Implements the Perceptron algorithm, which trains by adjusting weights based on classification errors. Key methods include:
+
+train: Trains the classifier on the training data.
+
+classify: Classifies new data based on learned weights.
+
+- NeuralNetworkClassifier (neuralNetwork.py)
+
+Implements a Neural Network with a single hidden layer. It uses forward and backpropagation for training. Key methods include:
+
+train: Trains the neural network on the training data.
+
+classify: Classifies new data based on learned weights.
+
+- Data Handling (samples.py)
+
+Provides functions to load and preprocess image data for both digit and face datasets. Key functions include:
+
+loadDataFile: Loads image data from files.
+
+loadLabelsFile: Loads corresponding labels for the image data.
+
+- Utility Functions (util.py)
+
+Includes various helper functions and data structures, such as Counter, Stack, Queue, and PriorityQueue, which are useful for implementing classifiers and other functionalities.
