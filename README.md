@@ -15,19 +15,15 @@ This project implements classification methods for digit and face recognition us
 
 ## Run the classifier:
 To execute the data classifier, use the following command:
+
 python dataClassifier.py -c [classifier] -d [dataset] -t [training_size] -i [iterations] -s [test_size]
 
-classifier: Type of classifier (perceptron or neural).
-
-dataset: Dataset to use (digits or faces).
-
-training_size: Size of the training set.
-
-iterations: Maximum iterations for training.
-
-test_size: Amount of test data to use.
+- classifier: Type of classifier (perceptron or neural).
+- dataset: Dataset to use (digits or faces).
+- training_size: Size of the training set.
+- iterations: Maximum iterations for training.
+- test_size: Amount of test data to use.
 
 Example:
-
 python dataClassifier.py -c perceptron -d digits -t 1000 -i 10 -s 100
 
