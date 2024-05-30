@@ -1,6 +1,6 @@
 ****AI Project: Digit and Face Classification****
 
-**Overview**
+**Overview**\n
 This project implements classification methods for digit and face recognition using various algorithms, including Perceptron and Neural Network classifiers. The project utilizes training data to classify digit images from the MNIST dataset and face images from the Caltech 101 dataset.
 
 **Repository Structure**
