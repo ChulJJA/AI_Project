@@ -25,5 +25,6 @@ python dataClassifier.py -c [classifier] -d [dataset] -t [training_size] -i [ite
 - test_size: Amount of test data to use.
 
 Example:
+
 python dataClassifier.py -c perceptron -d digits -t 1000 -i 10 -s 100
 
